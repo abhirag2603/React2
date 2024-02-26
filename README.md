@@ -14,21 +14,30 @@ Add Text: Enter custom text for the top and bottom of the meme.
 Preview: Instantly preview the meme with the added text.
 Download: Download the finalized meme with the text added.
 Setup
+
 To set up the MemeGenerator app locally, follow these steps:
 
 Clone this repository:
+```bash
 git clone https://github.com/abhirag2603/meme-generator.git
+```
 
 Navigate into the project directory:
+```bash
 cd meme-generator
+```
 
 Install dependencies:
+```bash
 npm install
+```
 
 Obtain API credentials for the ImageFlip API and replace them in the config.js file.
 
 Start the application:
+```bash
 npm start
+```
 
 Access the app in your browser at http://localhost:3000.
 
