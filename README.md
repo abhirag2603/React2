@@ -43,11 +43,17 @@ Access the app in your browser at http://localhost:3000.
 
 Dependencies
 React: JavaScript library for building user interfaces.
+
 Axios: Promise-based HTTP client for making requests to the ImageFlip API.
+
 Bootstrap: Front-end framework for building responsive and mobile-first websites.
+
 Reactstrap: React components for Bootstrap.
+
 HTML2Canvas: JavaScript library for capturing screenshots of web pages.
+
 FileSaver.js: JavaScript library for saving files on the client-side.
+
 Contributing
 Contributions are welcome! If you encounter any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
