@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+  padding:0;
+  font-family: 'Poppins';
+}
+
+.navbar{
+  width: 100%;
+  height: 65px;
+  background-image:linear-gradient(to right,#672280,#A626D3);
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  user-select: none;
+  
+}
+
+.navlogo1{
+ scale: 1;
+ cursor: pointer;
+}
+
+.navlogo2{
+  scale: 1.2;
+  cursor: pointer;
+}
+
+.forms{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 80px;
+  font-family: 'Poppins';
+  font-weight: 550;
+  flex-wrap: wrap;
+}
+
+.inp1,.inp2{
+  display: flex;
+  flex-direction: column;
+
+}
+
+input{
+  width: 222px;
+  border-radius: 5px;
+  border: solid #D1D5DB 2px;
+  height: 30px;
+  font-family: 'Poppins';
+  color: black;
+}
+
+button{
+  display: flex;
+  margin: 30px auto;
+  padding: 7px 160px;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Poppins';
+  color: white;
+  font-weight: 500;
+  background-image:linear-gradient(to right,#672280,#A626D3);
+  cursor: pointer;
+  user-select: none;
+}
+
+.meme--image{
+  display: flex;
+  margin: 30px auto;
+  height: 350px;
+  width: 477px;
+  user-select: none;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme--image {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
