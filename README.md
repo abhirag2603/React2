@@ -17,7 +17,7 @@ Setup
 To set up the MemeGenerator app locally, follow these steps:
 
 Clone this repository:
-git clone https://github.com/your-username/meme-generator.git
+git clone https://github.com/abhirag2603/meme-generator.git
 
 Navigate into the project directory:
 cd meme-generator
