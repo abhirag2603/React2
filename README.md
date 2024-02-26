@@ -1,7 +1,7 @@
 MemeGenerator App
 This MemeGenerator app allows users to create customized memes by adding top and bottom text to images sourced from the ImageFlip API. Users can instantly preview their meme with the added text and download the finalized meme for sharing.
 
-
+![Screenshot 2](/memegenss.png)
 
 Features
 Fetches meme images from the ImageFlip API.
