@@ -69,7 +69,7 @@ export default function Meme() {
                     <input type="text" name="bottomText" value={meme.bottomText} placeholder='And take my money' onChange={handleChange}></input>
                 </div>
             </div>
-            <button onClick={getMemeImage}>Get a new meme image</button>
+            <button onClick={getMemeImage}>Get a meme image</button>
             <div className="meme">
                 <img src={meme.randomImage} alt="Meme" className="meme--image" />
                 <h2 className="meme--text top">{meme.topText}</h2>
