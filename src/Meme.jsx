@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Memedata from './Memedata';
 
 export default function Meme() {
     const [meme, setMeme] = useState({
